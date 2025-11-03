@@ -22,6 +22,8 @@ header{
  gap:3x;
  flex-direction: row;
  justify-content: space-evenly;
+ width: 60%;
+ margin: auto;
 }
 .welcome{
     color: blue;
