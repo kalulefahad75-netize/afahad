@@ -1,15 +1,43 @@
+body{
+background-image: url("17.jpg");
+  background-repeat: no-repeat;     
+  background-size: cover;           
+  background-attachment: fixed;     
+  background-position: center;  
+  color: red;   
+}
+header{
+    background-color: black ;
+    color: white;
+    justify-content: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 14px 40px;
+    
+}
 .main{
-    display:flex;
-    background-color: blue;
-    color:white;
-    padding: 10px;
-    gap:10px;
-    flex-direction: row;
-    justify-content: space-evenly;
+ display:flex;
+ font-family: 'Poppins', sans-serif;
+ padding: 10px;
+ gap:3x;
+ flex-direction: row;
+ justify-content: space-evenly;
+}
+.welcome{
+    color: blue;
+ font-size: 2.5rem;
+ text-align: center;
+ animation: bounce 2s infinite alternate;
+
+ }
+ @keyframes bounce {
+    from { transform: translateY(0); }
+    to { transform: translateY(-15px); }
 }
 .img{
-   height: 400px;
+   height: auto;
    width: 300px;
+   border-radius: 50%;
 }
 
 nav>ul>li{
@@ -22,8 +50,15 @@ nav>ul>li>a{
     color: white;
     background-color: 0ranges;
     padding: 10px;
+    border-radius: 50px;
 }
 nav>ul>li>a:hover{
    background-color: red;
    color: darkgreen;
+}
+footer{
+     background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
