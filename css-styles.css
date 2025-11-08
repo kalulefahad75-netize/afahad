@@ -4,7 +4,9 @@ background-image: url("17.jpg");
   background-size: cover;           
   background-attachment: fixed;     
   background-position: center;  
-  color: red;   
+  color: red; 
+  font-size: 16px; 
+  line-break: 1.6;
 }
 header{
     background-color: black ;
@@ -22,8 +24,7 @@ header{
  gap:3x;
  flex-direction: row;
  justify-content: space-evenly;
- width: 60%;
- margin: auto;
+gap: 20px;
 }
 .welcome{
     color: blue;
