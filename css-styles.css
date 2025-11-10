@@ -7,16 +7,9 @@ background-image: url("17.jpg");
   color: red; 
   font-size: 16px; 
   line-break: 1.6;
+  padding-top: 70px;
 }
-header{
-    background-color: black ;
-    color: white;
-    justify-content: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 14px 40px;
-    
-}
+
 .main{
  display:flex;
  font-family: 'Poppins', sans-serif;
