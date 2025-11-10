@@ -1,16 +1,58 @@
-body{
-background-image: url("17.jpg");
-  background-repeat: no-repeat;     
-  background-size: cover;           
-  background-attachment: fixed;     
-  background-position: center;  
-  color: red; 
-  font-size: 16px; 
-  line-break: 1.6;
+body {
+  margin: 0;
   padding-top: 70px;
+  font-family: Arial, sans-serif;
 }
 
-.main{
+/* Welcome text */
+.welcome {
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+/* Main container spacing */
+.main {
+  padding: 10px;
+}
+
+/* Make images responsive + keep size controlled */
+.carousel-item img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+/* For small phones */
+@media (max-width: 600px) {
+  .carousel-item img {
+    max-height: 250px;
+  }
+}
+
+/* Center article text */
+article {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Remove bullet dots */
+article ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Footer style */
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+main{
  display:flex;
  font-family: 'Poppins', sans-serif;
  padding: 10px;
@@ -18,43 +60,4 @@ background-image: url("17.jpg");
  flex-direction: row;
  justify-content: space-evenly;
 gap: 20px;
-}
-.welcome{
-    color: blue;
- font-size: 2.5rem;
- text-align: center;
- animation: bounce 2s infinite alternate;
-
- }
- @keyframes bounce {
-    from { transform: translateY(0); }
-    to { transform: translateY(-15px); }
-}
-.img{
-   height: auto;
-   width: 300px;
-   border-radius: 50%;
-}
-
-nav>ul>li{
-    list-style-type: none;
-    display: inline;
-}
-
-nav>ul>li>a{
-    text-decoration: none;
-    color: white;
-    background-color: 0ranges;
-    padding: 10px;
-    border-radius: 50px;
-}
-nav>ul>li>a:hover{
-   background-color: red;
-   color: darkgreen;
-}
-footer{
-     background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
 }
