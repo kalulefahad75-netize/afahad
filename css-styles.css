@@ -1,58 +1,16 @@
-body {
-  margin: 0;
-  padding-top: 70px;
-  font-family: Arial, sans-serif;
+body{
+background-image: url("17.png");
+  background-repeat: no-repeat;     
+  background-size: cover;           
+  background-attachment: fixed;     
+  background-position: center;  
+  color: red; 
+ font-family: Arial, sans-serif ;
+ padding-top: 60px;
+ margin: 0;
+  
 }
-
-/* Welcome text */
-.welcome {
-  text-align: center;
-  padding: 15px;
-  font-weight: bold;
-  font-size: 1.6rem;
-}
-
-/* Main container spacing */
-.main {
-  padding: 10px;
-}
-
-/* Make images responsive + keep size controlled */
-.carousel-item img {
-  width: 100%;
-  max-height: 350px;
-  object-fit: cover;
-}
-
-/* For small phones */
-@media (max-width: 600px) {
-  .carousel-item img {
-    max-height: 250px;
-  }
-}
-
-/* Center article text */
-article {
-  text-align: center;
-  margin-top: 20px;
-}
-
-/* Remove bullet dots */
-article ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-/* Footer style */
-footer {
-  background: #111;
-  color: #fff;
-  text-align: center;
-  padding: 15px;
-  margin-top: 30px;
-}
-
-main{
+.main{
  display:flex;
  font-family: 'Poppins', sans-serif;
  padding: 10px;
@@ -60,4 +18,55 @@ main{
  flex-direction: row;
  justify-content: space-evenly;
 gap: 20px;
+}
+.welcome{
+    color: blue;
+ font-size: 2.5rem;
+ text-align: center;
+ animation: bounce 2s infinite alternate;
+
+ }
+ @keyframes bounce {
+    from { transform: translateY(0); }
+    to { transform: translateY(-15px); }
+}
+
+/*welcome text*/
+.welcome {
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.main {
+  padding: 10px;
+}
+.carousel-item img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+}
+@media (max-width: 600px) {
+  .carousel-item img {
+    max-height: 250px;
+  }
+}
+article {
+  text-align: center;
+  margin-top: 20px;
+}
+
+article ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  width: 100%;
 }

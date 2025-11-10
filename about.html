@@ -9,17 +9,8 @@
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css-styles.css">
 </head>
-<body class="container mt-3 mb-3" >
+<body>
     <header>
-        <nav>
-        <ul class="nav-menu">
-            <li><a href="index.html"> Home</a></li>
-            <li><a href="about.html">about-me</a></li>
-
-        </ul>
-   
-         </nav>
-    </header>
      <section>  
     <nav class="navbar navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
@@ -29,7 +20,7 @@
     </button>
     <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
@@ -39,21 +30,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">about-me</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="index.html">Home</a></li>
-              <li><a class="dropdown-item" href="about.html">about-me</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="index.html">Home</a></li>
-            </ul>
-          </li>
-        </ul>
+          </li>   
         <form class="d-flex mt-3" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
           <button class="btn btn-success" type="submit">Search</button>
@@ -62,8 +39,9 @@
     </div>
   </div>
 </nav>
+</header>
 </section>
-    <main>
+    <main class="main">
         <section>            
             <!--this is the first article in section 1-->
             <article>
@@ -80,22 +58,35 @@
                 <h3>My motto</h3>
                 <p>money never come late</p>
             </article>
-            <article>
-   
-            </article>
+            
        
         </section>
-    </main>
-    <aside class="co">
-        <form action="">
-            <h2>Talk to me</h2>
+   
+    <aside class="d-flex justify-content-center">
+      
+        <form>
+           <p>Am also among the URA commissioners and we need more works
+      if u intrested the form is down their
+    </p>
+          <div class= "card shadow-sm w-100" style=" background-color: white; max-width: 600px; height: auto;">
+           <h2>Register with me</h2>
+          <div class="mb-3">
             <label for="name">Name</label><br>
-            <input type="text" id="" placeholder="Insert name">
-            <input type="email" id="" placeholder="Insert email">
-            <input type="password" id="" placeholder="Insert Password">
-            <button type="submit">Rigister</button>
+            <input type="text" id="form-control" placeholder="Insert name">
+           </div>
+           <div class="mb-3">
+            <label for="">Email</label>
+            <input type="email" id="form-control" placeholder="Insert email">
+          </div>
+          <div class="mb-3">
+            <label for="text">Password</label>
+            <input type="password" id="form-control" placeholder="Insert Password">
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Rigister</button>
+          </div>
         </form>
     </aside>
+    </main>
 <footer>
     &copy;2025fahad
 </footer>
