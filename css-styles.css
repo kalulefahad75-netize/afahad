@@ -8,7 +8,7 @@ background-image: url("17.png");
  font-family: Arial, sans-serif ;
  padding-top: 60px;
  margin: 0;
-  
+ 
 }
 .main{
  display:flex;
@@ -69,4 +69,14 @@ footer {
   padding: 15px 0;
   margin-top: 30px;
   width: 100%;
+}
+.article{
+background-color: rgba(0, 0, 0, 0.658);
+width: 70%;
+height: 60%; 
+margin-left: 20px; 
+margin-bottom: 45%;
+border-radius:10% ;
+padding: 2% 2%;
+   
 }
