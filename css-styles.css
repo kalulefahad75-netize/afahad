@@ -73,9 +73,9 @@ footer {
 .article{
 background-color: rgba(0, 0, 0, 0.658);
 width: 70%;
-height: 60%; 
+height: 100%; 
 margin-left: 20px; 
-margin-bottom: 45%;
+margin-bottom: 0;
 border-radius: 25px ;
 padding: 2% 2%;
 }
