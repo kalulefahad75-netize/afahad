@@ -79,3 +79,20 @@ margin-bottom: 0;
 border-radius: 25px ;
 padding: 2% 2%;
 }
+.social-icons { 
+background-color: rgba(173, 216, 230, 0.582);
+display:flex;
+ gap:5px;
+align-items:center;
+ }
+.social-icons a { 
+ color:#2a0369; 
+ font-size:20px;
+text-decoration:none;
+ margin-left: 5%;
+ }
+.social-icons a:hover {
+ opacity:0.8;
+ color: honeydew;
+ }
+
