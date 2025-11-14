@@ -40,8 +40,9 @@ gap: 20px;
 }
 .carousel-item img {
   width: 100%;
-  max-height: 340px;
+  max-height: 360px;
   object-fit: cover;
+  border-radius: 10%;
 }
 @media (max-width: 600px) {
   .carousel-item img {
@@ -51,8 +52,12 @@ gap: 20px;
 article {
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
 }
-
+.article:hover{
+  transform: scale(1.05);
+}
 article ul {
   list-style-type: none;
   padding: 0;
