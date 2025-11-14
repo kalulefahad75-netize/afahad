@@ -58,7 +58,7 @@ article {
 .article:hover{
   transform: scale(1.05);
 }
-article ul {
+article ul{
   list-style-type: none;
   padding: 0;
 }
