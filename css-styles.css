@@ -8,6 +8,7 @@ background-image: url("17.png");
  font-family: Arial, sans-serif ;
  padding-top: 60px;
  margin: 0;
+  padding: 15px;
  
 }
 .main{
@@ -96,4 +97,38 @@ text-decoration:none;
  opacity:0.8;
  color: honeydew;
  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 15px;
+}
+section {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 601px) {
+  body {
+    font-size: 18px;
+  }
+}
 
