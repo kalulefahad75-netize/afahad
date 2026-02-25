@@ -6,7 +6,7 @@
 }
 body {
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-              url("17.png");
+   url("17.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
