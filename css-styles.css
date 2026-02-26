@@ -36,17 +36,11 @@ body {
   gap: 30px;
   padding: 20px;
 }
-
 .carousel {
-    width: 100% !important;
-    max-width: 600px;
-    margin: 80px auto 0 auto;
-}
-
-.carousel-item img {
-   height: 400px;       
-   object-fit: cover;   
-    border-radius: 10px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  max-height: 500px;
 }
 
 .article {
